@@ -1,0 +1,52 @@
+.personagem {
+    width: 600px;
+    height: 220px;
+    
+    display: flex;
+    overflow: hidden;
+    gap: 1rem;
+
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+    margin: 0.75rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.info-textual h2{
+    color: #fff;
+    margin: .5rem;
+}
+
+.info-textual p{
+    color: #fff;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+.info-textual span{
+    color: #6d6d6d;
+    font-size: .75rem;
+    margin: .5rem;
+}
+
+@media (max-width: 665px) {
+    .personagem {
+        width: 80%;
+    }
+
+    .img-card {
+        width: 200px;
+    }
+
+    .info-textual h2{
+        font-size: 1rem;
+    }
+    
+    .info-textual p{
+        font-size: .75rem;
+    }
+    
+    .info-textual span{
+        font-size: .55rem;
+    }
+}
